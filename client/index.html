@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Carlos AI">
+    <meta property="og:description" content="CarlosAI is a chat based on artificial intelligence">
+    <meta property="og:image" content="https://cmejia.tech/IMAGENES/logo3.jpeg">
+    <meta property="og:url" content="https://carlosai.vercel.app/">
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+
+    <title>Carlos - AI</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#1a7ed0">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#1a7ed0">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#1a7ed0">
+
+  </head>
+  <body>
+    <div id="app">
+      <div class="header">
+        <img src="/favicon.ico" alt="logo" class="logo">
+        <p><strong>Welcome to Carlos AI </strong> </p> 
+      <p class="footer2">You can ask your questions below</p><br>
+       </div>
+      <div id="chat_container"></div>
+      <form action="">
+        <textarea
+          name="prompt"
+          cols="1"
+          rows="1"
+          placeholder="Ask your question here..."
+        ></textarea>
+        <button type="submit">
+          <img src="assets/arrow.png" alt="send">
+        </button>
+      </form>
+      <div class="footer">
+       <strong>CarlosAI</strong>  can make mistakes. Consider checking important information.
+      </div>
+    </div>
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
